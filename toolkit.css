@@ -217,6 +217,7 @@ body{
     margin-top: 12px;
     line-height: 23px;
     font-weight: 500;
+    letter-spacing: .035em;
   /*   position: sticky;
     top: 35px; */
   }
