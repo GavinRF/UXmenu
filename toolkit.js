@@ -1,5 +1,3 @@
-
-
 //stage area clicks to open toggle    
 
   $('h6').on('click', function(){
@@ -33,7 +31,7 @@
       $('.toggle').click(function(e) {
         e.stopPropagation();
       });
-      
+
       //h6 doesn't click checkbox
       $('h6').on('click', function(e) {
         e.stopPropagation();
@@ -236,6 +234,8 @@
 //.discoveries .defines .ideas .tests
 
 //DOWNLOAD CONTENT
+var fileName =  'Liberty-UX-Toolkit.html'; 
+
 function downloadInnerHtml(filename, elId, mimeType) {
   var elHtml = document.getElementById(elId).innerHTML;
   var link = document.createElement('a');
@@ -246,22 +246,20 @@ function downloadInnerHtml(filename, elId, mimeType) {
   link.click(); 
 }
 
-var fileName =  'Liberty-UX-Toolkit.html'; 
-
 $('#downloadLink').click(function(){
-  $('#dlContent').text('');
   //add project name to the DL area
   let pName = $('#pName').val();
-  $('#dlContent').prepend("<h2>"+pName+"</h2>");
+  $('#dlContent').append("<h2>"+pName+"</h2>");
   //add checked content
-  let description = $("input:checked").parentsUntil('.content');
-  let dText = description.contents().not('hr');
-  $('#dlContent').append(dText);
-  $('#dlContent').prepend(
+  let description = $("input:checked").parentsUntil('.content').contents().clone();
+  $('#dlContent').append(
     '<head><title>Liberty HCD | UX Toolkit</title>'+
     '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">'+
-    '</head><body style="width:800px">');
+    '</head><body style="max-width:800px; padding:40px;">');
+    $('#dlContent').append(description);
   $('#dlContent').append('</body>');
   //Download the dlcontent area
   downloadInnerHtml(fileName, 'dlContent','text/html');
+  //remove everything from dl div
+  $('#dlContent').empty();
 });
