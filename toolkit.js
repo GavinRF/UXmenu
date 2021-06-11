@@ -1,5 +1,23 @@
-  //expand the next div + -
-  $('.toggle').on('click', function(){
+
+
+//stage area clicks to open toggle    
+
+  $('h6').on('click', function(){
+
+    $('.toggle').click(function(e) {
+      e.stopPropagation();
+    });
+
+    $(this).next('.toggle:first').triggerHandler('click');
+
+    $('.menu').click(function(e) {
+      e.stopPropagation();
+    });
+
+  });
+
+    //expand the next div + -
+    $('.toggle').on('click', function(){
       $(this).next().slideToggle('fast');
       
       let toggleTxt = $(this).text();
@@ -11,16 +29,18 @@
       }
   });
 
+      //toggle doesn't click checkbox
+      $('.toggle').click(function(e) {
+        e.stopPropagation();
+      });
+      
+      //h6 doesn't click checkbox
+      $('h6').on('click', function(e) {
+        e.stopPropagation();
+      });
+
   //select the checkbox by clicking on the area!!!
   $('.paddingXtra').on('click', function(){
-    //toggle doesn't click checkbox
-    $('.toggle').click(function(e) {
-      e.stopPropagation();
-    });
-    //h6 doesn't click checkbox
-    $('h6').click(function(e) {
-      e.stopPropagation();
-    });
 
     //select checkbox
     boxCheck = $(this).find('input').prop('checked');
@@ -39,19 +59,6 @@
     }
      //update total in cart and sections
      itemNum();
-  });
-
-  //stage area clicks to open toggle
-  $('.blue').on('click', function(){
-    $(this).children('.toggle:first').triggerHandler('click');
-
-    $('.menu').click(function(e) {
-      e.stopPropagation();
-    });
-
-    $('.toggle').click(function(e) {
-      e.stopPropagation();
-    });
   });
 
   //add project to the DL area

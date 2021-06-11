@@ -63,6 +63,10 @@ body{
     top: 0;
     opacity: 25;
   }
+
+  a {
+    color: #c2eeff;
+  }
   
   #overlay{
     width: 100%;
@@ -104,7 +108,7 @@ body{
   #pTitle{
     margin: 0px;
     cursor: pointer;
-    z-index: 45;
+    z-index: 0;
   }
   
   #cartButton{
@@ -253,6 +257,7 @@ body{
     text-align: center;
     font-weight: lighter;
     z-index: -1;
+    cursor: pointer;
     /* color: #3ebaebd7; */
   }
   
@@ -275,7 +280,7 @@ body{
      background: #203D69;
      margin-bottom: 9px;
      padding-bottom: 14px;
-     cursor: pointer;
+     /* cursor: pointer; */
   }
 
   /* .blue:hover{
@@ -292,6 +297,7 @@ body{
     padding-top: 5px;
     text-align: center;
     font-size: 26px;
+    z-index: 5;
     /* border: 1px solid #EDE9E7; 
     background:#172c472a;*/
   }
