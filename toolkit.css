@@ -34,6 +34,8 @@ body{
     font-weight: bold;
     top: 45%;
     right: 15%;
+    color: white;
+    background: #203D69;
     box-shadow: 2px 3px 3px rgba(12, 39, 105, .2);
     padding: 13px !important;
     animation: start .4s ease-in-out 1;
@@ -345,7 +347,8 @@ body{
   #continue, #start, #submit{
     font-size: 16px;
     padding: 10px 15px 10px 15px;
-    background-color: #9DDDF7;
+    background-color: #203D69;
+    color: white; 
     border-radius: 50px;
     border: none;
     float: right;
@@ -353,6 +356,9 @@ body{
     font-weight: 600;
     cursor: pointer;
   }
+
+  #continue, #submit{
+  background-color: #1c87c9;}
   
   #submit{
     margin-top: 25px;
@@ -364,8 +370,12 @@ body{
   margin-top: -2px;
   }
   
-  #continue:hover, #start:hover{
-    background-color: #C8EFFF;
+  #start:hover{
+    background-color: #1c87c9;
+  }
+
+  #continue:hover, #submit:hover{
+    background-color: #2154a0;
   }
   
   #back{
