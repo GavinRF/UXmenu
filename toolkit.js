@@ -1,5 +1,5 @@
-//stage area clicks to open toggle    
 
+//h6 area clicks to open toggle    
   $('h6').on('click', function(){
 
     $('.toggle').click(function(e) {
@@ -70,6 +70,10 @@
   let inCart = $(":checkbox:checked").length;
   
     $(document).ready(function() {
+      //clear chekboxes and name on reload
+      $('input').prop('checked', false);
+      $('#pName').val('');
+      //default checked number to cart "toolbox"
       $('.totalNum').text(inCart);
     });
   

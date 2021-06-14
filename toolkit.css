@@ -290,11 +290,11 @@ body{
   .toggle{
     display: block;
     cursor: pointer;
-    width: 100%;
+    /* width: 100%; 
+    border-radius: 40px; */
     height: 26px;
-    border-radius: 40px;
-    margin: 10px auto 5px auto;
-    padding-top: 5px;
+    margin: 10px 14px 5px 14px;
+    padding: 5px;
     text-align: center;
     font-size: 26px;
     z-index: 5;
@@ -302,9 +302,9 @@ body{
     background:#172c472a;*/
   }
 
-  /* .toggle:hover{
+  .toggle:hover {
     background:#172c472a;
-  } */
+  }
   
   ul{
     list-style-type: none;
