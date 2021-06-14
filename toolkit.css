@@ -252,8 +252,8 @@ body{
   }
   
   h6{
-    margin-top: 4px;
-    margin-bottom: -15px;
+    margin-top: 0;
+    margin-bottom: -22px;
     text-align: center;
     font-weight: lighter;
     z-index: -1;
@@ -282,19 +282,15 @@ body{
      padding-bottom: 14px;
      /* cursor: pointer; */
   }
-
-  /* .blue:hover{
-    background: #345381;
- } */
   
   .toggle{
     display: block;
     cursor: pointer;
-    /* width: 100%; 
-    border-radius: 40px; */
+    /* width: 100%; */
+    border-radius: 4px; 
     height: 26px;
-    margin: 10px 14px 5px 14px;
-    padding: 5px;
+    margin: 5px 14px 5px 14px;
+    padding: 14px 0 0 0;
     text-align: center;
     font-size: 26px;
     z-index: 5;
@@ -303,7 +299,7 @@ body{
   }
 
   .toggle:hover {
-    background:#172c472a;
+    background:#3868a336;
   }
   
   ul{
@@ -382,7 +378,7 @@ body{
   }
 
   #continue:hover, #submit:hover{
-    background-color: #2154a0;
+    background-color: #1b62a0;
   }
   
   #back{
