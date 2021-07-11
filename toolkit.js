@@ -259,7 +259,9 @@ $('#downloadLink').click(function(){
   $('#dlContent').append(
     '<head><title>Liberty HCD | UX Toolkit</title>'+
     '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">'+
-    '</head><body style="max-width:800px; padding:40px;">');
+    '<style>input,hr,.toggle{display:none}body{max-width:800px; margin:140px; font-family: sans-serif}ul{list-style: none;}'+
+    'h3,h4{margin-bottom:0px;}h3{font-size:30px;}</style>'+
+    '</head><body>');
     $('#dlContent').append(description);
   $('#dlContent').append('</body>');
   //Download the dlcontent area
