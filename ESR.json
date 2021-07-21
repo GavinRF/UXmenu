@@ -1,0 +1,285 @@
+	
+vets	
+0	
+mviResult	"FOUND"
+eeResult	"FOUND"
+emisResult	"NO_REQUEST"
+vets360Result	"FOUND"
+bgsResult	"NO_REQUEST"
+mvi	
+icn	"1013219208V704725"
+salesforceId	"0033500000ITIpRAAX"
+corpId	"null"
+edipi	"2107701063"
+brlsFilenumber	"null"
+mviIipt	"null"
+mviToken	"WSDOC2107151327505670014179676"
+personType	"PAT"
+vet360Id	"221007"
+prefixName	"null"
+suffixName	"II"
+firstName	"BILL"
+lastName	"NEXUS"
+middleName	"HEATH"
+mothersMaidenName	"DOUGLASS"
+cityOfBirth	"KATY"
+stateOfBirth	"TX"
+dob	"19700702"
+dod	"null"
+ssn	"476298732"
+gender	"M"
+queryMatchObservation	"null"
+address	
+streetAddress	"1336 N State Pkwy"
+streetAddress2	"null"
+streetAddress3	"null"
+city	"Chicago"
+state	"IL"
+postalCode	"60610-2118"
+country	"USA"
+addressTypeCode	"PHYS"
+phoneNumber	[]
+medicalCenterFacilities	[]
+correlatedIds	
+0	
+shortId	"1013219208V704725"
+longId	"1013219208V704725^NI^200M^USVHA^P"
+idType	"ICN_ID"
+idStatus	"ACTIVE"
+1	
+shortId	"161001"
+longId	"161001^PI^668^USVHA^C"
+idType	"VHA_CORRELATED_SYSTEMS_ID"
+idStatus	"OTHER"
+2	
+shortId	"2107701063"
+longId	"2107701063^PI^200CRNR^USVHA^A"
+idType	"CERNER_ID"
+idStatus	"ACTIVE"
+3	
+shortId	"2107701063"
+longId	"2107701063^NI^200DOD^USDOD^A"
+idType	"DOD_EDIPI_ID"
+idStatus	"ACTIVE"
+4	
+shortId	"0000001013219208V704725000000"
+longId	"0000001013219208V704725000000^PI^200ESR^USVHA^A"
+idType	"OTHER"
+idStatus	"ACTIVE"
+5	
+shortId	"221007"
+longId	"221007^PI^200VETS^USDVA^A"
+idType	"OTHER"
+idStatus	"ACTIVE"
+6	
+shortId	"0033500000ITIpRAAX_vasfdc"
+longId	"0033500000ITIpRAAX_vasfdc^PI^200DSLF^USDVA^A"
+idType	"VA_SALESFORCE"
+idStatus	"ACTIVE"
+relationships	
+0	
+icn	"1013187999V665616"
+direction	"QUAL"
+name	"REGRESSIONISH, MONDAY TMBD"
+displayName	"Care-Giver Primary"
+relationshipType	"CGP"
+statusCode	"ACTIVE"
+effectiveTime	"20200616"
+1	
+icn	"1013439374V807550"
+direction	"QUAL"
+name	"CLARKE, SARA"
+displayName	"Care-Giver Primary"
+relationshipType	"CGP"
+statusCode	"PENDING"
+effectiveTime	"20200820"
+
+
+ee	
+eeVeteranStatus	"true"
+serviceConnectedPercentage	"50"
+eligibleForMedicaid	"null"
+priorityGroup	"Group 1"
+monetaryBenefits	
+0	
+monetaryBenefitIndicator	"false"
+monetaryBenefitType	"Aid And Attendance"
+monetaryBenefitReportDate	"20200518"
+1	
+monetaryBenefitIndicator	"true"
+monetaryBenefitType	"Housebound"
+monetaryBenefitReportDate	"20200518"
+2	
+monetaryBenefitIndicator	"false"
+monetaryBenefitType	"VA Pension"
+monetaryBenefitReportDate	"20200518"
+3	
+monetaryBenefitIndicator	"false"
+monetaryBenefitType	"Disability Compensation"
+monetaryBenefitReportDate	"20200518"
+ratedDisabilities	
+0	
+diagnosticExtremity	"null"
+disability	"Arthritis, gonorrheal"
+disabilityCode	"5004"
+originalEffectiveRatingDate	"null"
+percentage	"25"
+ratingDate	"null"
+serviceConnected	"null"
+recordModifiedDate	"20200518"
+1	
+diagnosticExtremity	"null"
+disability	"Arthritis, typhoid"
+disabilityCode	"5006"
+originalEffectiveRatingDate	"null"
+percentage	"25"
+ratingDate	"null"
+serviceConnected	"null"
+recordModifiedDate	"20200518"
+serviceBranches	[]
+eeExtendedResponse	
+associations	[]
+demographics	
+preferredFacility	"668 - MANN-GRANDSTAFF VAMC"
+assignmentDate	"20200518"
+unassignmentDate	"null"
+preferredFacilities	
+0	
+preferredFacility	"668 - MANN-GRANDSTAFF VAMC"
+assignmentDate	"20200518"
+unassignmentDate	"null"
+eligibilityVerification	
+eligibilityStatus	"VERIFIED"
+eligibilityStatusDate	"20200518"
+verificationMethod	"DD12"
+enrollmentDetermination	
+effectiveDate	"20200518"
+eligibleForMedicaid	"null"
+endDate	"null"
+enrollmentDate	"20200518"
+enrollmentStatus	"Verified"
+enrollmentCategoryName	"Enrolled"
+monetaryBenefits	
+0	
+monetaryBenefitIndicator	"false"
+monetaryBenefitType	"Aid And Attendance"
+monetaryBenefitReportDate	"20200518"
+1	
+monetaryBenefitIndicator	"true"
+monetaryBenefitType	"Housebound"
+monetaryBenefitReportDate	"20200518"
+2	
+monetaryBenefitIndicator	"false"
+monetaryBenefitType	"VA Pension"
+monetaryBenefitReportDate	"20200518"
+3	
+monetaryBenefitIndicator	"false"
+monetaryBenefitType	"Disability Compensation"
+monetaryBenefitReportDate	"20200518"
+otherEligibilities	[]
+primaryEligibility	
+indicator	"P"
+type	"SERVICE CONNECTED 50% to 100%"
+eligibilityReportDate	"20200518"
+priorityGroup	"Group 1"
+prioritySubGroup	"null"
+secondaryEligibilities	
+0	
+indicator	"S"
+type	"HOUSEBOUND"
+eligibilityReportDate	"20200518"
+serviceConnectionAward	
+awardDate	"null"
+combinedServiceConnectedPercentageEffectiveDate	"null"
+permanentAndTotal	"false"
+permanentAndTotalEffectiveDate	"null"
+serviceConnectedIndicator	"true"
+serviceConnectedPercentage	"50"
+unemployable	"false"
+scReportDate	"20200518"
+veteran	"true"
+insuranceList	[]
+relations	[]
+person	{}
+healthBenefitPlans	
+0	
+planName	"Veteran Plan CCP Basic"
+effectiveDate	"20200518"
+description	"null"
+planCode	"null"
+coverageCode	"null"
+1	
+planName	"Veteran Full Med Benefits Tx and Rx Copay Exmt"
+effectiveDate	"20200518"
+description	"null"
+planCode	"null"
+coverageCode	"null"
+vaProfile	
+createDate	"2020-05-18T16:10:49Z"
+sourceDate	"2020-05-18T16:08:39Z"
+sourceSystem	"VHAES"
+txAuditId	"0db6ccd8-c36c-451f-8606-56c21f12d0a6"
+updateDate	"2020-05-18T16:10:49Z"
+vet360Id	221007
+addresses	
+0	
+addressId	171050
+addressLine1	"1336 N State Pkwy"
+addressPurposeOfUse	"CORRESPONDENCE"
+addressType	"Domestic"
+badAddress	false
+cityName	"Chicago"
+confidenceScore	"100"
+countryCodeFips	"US"
+countryCodeIso2	"US"
+countryCodeIso3	"USA"
+countryName	"United States"
+county	
+countyCode	"17031"
+countyName	"Cook County"
+createDate	"2020-05-18T16:10:49Z"
+effectiveStartDate	"2020-05-18T16:09:39Z"
+geocodeDate	"2020-05-18T16:10:49Z"
+geocodePrecision	"31"
+latitude	"41.9070"
+longitude	"-87.6290"
+originatingSourceSystem	"HEC"
+sourceDate	"2020-05-18T16:09:39Z"
+sourceSystem	"VHAES"
+sourceSystemUser	"VHAISDSHAHEA"
+stateCode	"IL"
+txAuditId	"0db6ccd8-c36c-451f-8606-56c21f12d0a6"
+updateDate	"2020-05-18T16:10:49Z"
+vet360Id	221007
+zipCode4	"2118"
+zipCode5	"60610"
+emails	
+0	
+createDate	"2020-05-18T16:10:49Z"
+effectiveStartDate	"2020-05-18T16:09:39Z"
+emailAddressText	"bill.nexus@yahoo.com"
+emailId	105741
+originatingSourceSystem	"HEC"
+sourceDate	"2020-05-18T16:09:39Z"
+sourceSystem	"VHAES"
+sourceSystemUser	"VHAISDSHAHEA"
+txAuditId	"0db6ccd8-c36c-451f-8606-56c21f12d0a6"
+updateDate	"2020-05-18T16:10:49Z"
+vet360Id	221007
+telephones	
+0	
+areaCode	"854"
+countryCode	"1"
+createDate	"2020-05-18T16:10:49Z"
+effectiveStartDate	"2020-05-18T16:09:39Z"
+internationalIndicator	false
+originatingSourceSystem	"HEC"
+phoneNumber	"6728934"
+phoneType	"HOME"
+sourceDate	"2020-05-18T16:09:39Z"
+sourceSystem	"VHAES"
+sourceSystemUser	"VHAISDSHAHEA"
+telephoneId	142686
+txAuditId	"0db6ccd8-c36c-451f-8606-56c21f12d0a6"
+updateDate	"2020-05-18T16:10:49Z"
+vet360Id	221007
